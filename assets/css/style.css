@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #333;
-}
-
-.img-header{
-    width: 100%;
-    position: absolute;
-}
 
 a {
     text-decoration: none;
@@ -26,6 +18,11 @@ ul {
 
 }
 
+header{
+    height: 99.9vh;
+    background: url('../img/bala0-6.png');
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -34,7 +31,6 @@ ul {
     padding-top: 15px;
     font-family: 'Poppins' , sans-serif;
     font-weight: 800px;
-    position: relative;
 }
 
 .logo{
