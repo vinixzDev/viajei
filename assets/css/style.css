@@ -14,32 +14,136 @@ ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    padding-top:10px ;
+    padding-top: 10px;
 
 }
 
-header{
+header {
     height: 99.9vh;
-    background: url('../img/bala0-6.png');
+    background: url('../img/bala0-6.png') no-repeat;
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    text-align: center;
     padding-top: 15px;
-    font-family: 'Poppins' , sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800px;
 }
 
-.logo{
-    display: inline-block;
+.logo {
     padding-left: 13px;
 }
 
-.register{
-    padding-top: 10px;
-    padding-right: 13px;
+.register {
+    color: white;
+    margin-right: 38px;
+
+}
+
+/* main  */
+.descripition {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 700px;
+}
+
+.p1 {
+    text-align: center;
+    padding-top: 26px;
+    font-size: 20px;
+    color: #5DB7DE;
+}
+
+.h2-descripition {
+    padding-top: 26px;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+}
+
+.p2 {
+    padding-top: 23px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #334139;
+}
+
+
+.explore {
+    font-family: 'Roboto Mono', sans-serif;
+    padding-left: 96px;
+}
+
+.explore-p {
+    padding-top: 79px;
+}
+
+span {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 66px;
+    color: #FF6347;
+}
+
+.container-section{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr   ;
+    padding-top : 10px;
+}
+
+.card{
+    border: 1px  rgba(0, 0, 0, 0.29) solid;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.avaliacao{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.city{
+    font-family: 'Montserrat' , sans-serif;
+}
+
+iframe{
+    height:379px ;
+    width:554px ;
+}
+
+.new-york{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap: 20px;
+    background: #EFEAEA;
+}
+
+.new-york-video{
+    height: 500px;
+    width:774px ;
+}
+
+.buy{
+    padding-top: 20px;
+}
+
+.buy-button{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 20px;
+    background: #55C921;
+    border-radius: 40px;
+    color: white;
+}
+
+
+footer{
+    background: #D3D4D9;
+    height: 100px;
+    text-align: center;
+    padding-top: 50px;
 }
 
